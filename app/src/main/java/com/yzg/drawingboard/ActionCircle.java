@@ -42,7 +42,6 @@ public class ActionCircle  extends  BaseAction {
     public void move(float mx, float my) {
         stopX = mx;
         stopY = my;
-        radius = (float) ((Math.sqrt((mx - startX) * (mx - startX)
-                + (my - startY) * (my - startY))) / 2);
+        radius = (float) ((Math.sqrt((mx - startX) * (mx - startX) + (my - startY) * (my - startY))) / 2);
     }
 }
